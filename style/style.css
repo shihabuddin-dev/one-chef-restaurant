@@ -31,6 +31,7 @@ body{
 
 #hero{
     background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(../images/hero-bg.png);
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,6 +101,7 @@ font-weight: 700;
 line-height: 32px;
 letter-spacing: 0%;
 text-align: center;
+margin-bottom: 50px;
 }
 #card-box .subtitle{
     color: rgb(16, 16, 16);
@@ -111,9 +113,7 @@ letter-spacing: 0%;
 text-align: center;
 opacity: 0.6;
 }
-#card-box .info{
-    margin: ;
-}
+
 .card-container{
     
     margin-top: 30px;
@@ -136,3 +136,31 @@ background: rgba(82, 195, 3, 0.15);
     margin-top: 40px;
     text-align: center;
 }
+/* About Us Section */
+.about{
+    margin-top: 80px;
+    
+}
+.about-img1{
+    float: left;
+    width: 50%;
+    height: 30%;
+    border-radius: 10px;
+ }
+ .about-img2{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-top: 120px;
+    
+ }
+ .single-card{
+    
+    width: 100%;
+    height: 651px;
+ }
+ .footer{
+    width: 100%;
+    border-radius: 10px;
+    
+ }
