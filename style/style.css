@@ -158,6 +158,7 @@ background: rgba(82, 195, 3, 0.15);
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    margin-bottom: auto;
     
     
  }
